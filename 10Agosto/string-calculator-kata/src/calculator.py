@@ -1,2 +1,4 @@
 def sumar(numeros):
-    return 0
+    if numeros == "":
+        return 0
+    return int(numeros)
