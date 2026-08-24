@@ -18,9 +18,9 @@ def test_rover_gira_a_la_izquierda():
 
     assert rover.orientation() == "O"
 
-def test_rover_avanza_una_celda_mirando_al_norte():
-    rover = Rover(x=0, y=0, orientation="N")
+def test_rover_avanza_una_celda_mirando_al_este():
+    rover = Rover(x=0, y=0, orientation="E")
 
     rover.move_forward()
 
-    assert rover.position() == (0, 1)
+    assert rover.position() == (1, 0)
