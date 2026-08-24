@@ -2,7 +2,7 @@
 class Rover:
 
     ORIENTATIONS = ["N", "E", "S", "O"]
-
+    
     _DELTAS = {
         "N": (0, 1),
         "E": (1, 0),
