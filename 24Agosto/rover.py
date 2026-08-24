@@ -10,3 +10,6 @@ class Rover:
 
     def orientation(self):
         return self._orientation
+
+    def turn_right(self):
+        self._orientation = "E"
