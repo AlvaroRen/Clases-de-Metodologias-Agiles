@@ -34,3 +34,8 @@ class Rover:
         dx, dy = self._DELTAS[self.orientation()]
         self._x += dx
         self._y += dy
+
+    def move_backward(self):
+        dx, dy = self._DELTAS[self.orientation()]
+        self._x -= dx
+        self._y -= dy
