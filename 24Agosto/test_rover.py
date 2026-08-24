@@ -11,3 +11,9 @@ def test_rover_gira_a_la_derecha():
     rover.turn_right()
 
     assert rover.orientation() == "E"
+
+def test_rover_gira_a_la_izquierda():
+    rover = Rover(x=0, y=0, orientation="N")
+    rover.turn_left()
+
+    assert rover.orientation() == "O"
