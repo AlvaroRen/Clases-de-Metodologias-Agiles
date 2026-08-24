@@ -5,3 +5,4 @@ def test_rover_informa_posicion_y_orientacion_iniciales():
 
     assert rover.position() == (0, 0)
     assert rover.orientation() == "N"
+
