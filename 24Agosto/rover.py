@@ -19,3 +19,6 @@ class Rover:
 
     def turn_left(self):
         self._orientation_index = (self._orientation_index - 1) % 4
+
+    def move_forward(self):
+        self._y += 1
